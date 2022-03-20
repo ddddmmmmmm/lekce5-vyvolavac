@@ -49,6 +49,20 @@ function tahnoutJmeno() {
     let vyherce = document.querySelector('#vyherka');
     vyherce.textContent = vyherniJmeno;
 
+    // poslední oběť se vypíše na začátek
     let seznam = document.querySelector('#seznam');
-    seznam.textContent = tazenaJmena;
+    seznam.textContent = tazenaJmena.reverse();
+
+
+    // počítadlo obětí
+    let pocetObeti = document.querySelector('#pocitadlo');
+    pocetObeti += pocetObeti;
+    console.log(pocetObeti);  // do konzole vypíše
+    pocetObeti.textContent = pocetObeti; // tady do stránky nevypíše
+
+
+
+    // resetování vyvolávače
+
+
 }
